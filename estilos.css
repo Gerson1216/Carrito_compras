@@ -1,0 +1,43 @@
+*{
+    background-color: rgb(214, 147, 222);
+}
+#titulo1 {
+    background-color: rgb(161, 75, 219);
+    background-size: cover;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: bold;  color :azure; 
+    border-radius: 6px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+#titulo2 {
+    font-family: sans-serif;
+    font-size: 20px;    color : black   !important; color : white !important; color:aliceblue;
+    text-align: right padding 10px;
+    padding: 10px;
+
+}
+.productos{
+    font-family: sans-serif;
+    font-size: 20px;    
+    color : white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    background-color: rgb(195, 120, 224);   
+}
+
+button{
+    font-family: sans-serif;
+    font-size: 20px;
+    color : white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    font-style: none;
+}
