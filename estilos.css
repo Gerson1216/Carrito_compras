@@ -1,5 +1,5 @@
 *{
-    background-color: rgb(241, 226, 155);
+    background-color: #24303c;
 }
 header{
     display: flex;
@@ -7,19 +7,24 @@ header{
     font-family:sans-serif;
     align-items:center;
     padding: 10px;
-    background-color:rgb(250, 255, 194);
+    background-color:#293d52;
+    box-shadow: 7px 13px 25px #000;
    
 }
 .logo{
     display: flex;
+    border-image: none;
+    border: none;
 }
+
 .logo img{
-    height: 60px;
-    margin-right: 10px;
-    border-radius: 8px ;    
+    max-height: 80px;
+    image-rendering: optimizeQuality;
+    border-image: none;
 }
 nav{
-    border-radius: 8px ;
+    border-radius: 4px ;
+    box-shadow: 7px 13px 32px #000;
 }
 
 nav a {
@@ -32,23 +37,83 @@ nav a {
     
 
 }
+.form-register {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    max-height:40px;
+    text-align: center;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+  
 
 #titulo1 {
     font-family: sans-serif;
     font-size: 20px;  color : white;
-    text-align: right padding 10px;
+    text-align:center;
     padding: 10px;
 
 }
 div .productos {
     display: flex;
+    box-shadow: 7px 13px 30px #000;
+
 }
 .productos{
     text-decoration: none;
     color: white   ;
     margin-bottom: 10px;
     border-radius: 6px;
-    background-color: rgb(250, 239, 164);   
+    background-color: #293d52;   
     
 }
 .productos h2{
@@ -56,24 +121,33 @@ div .productos {
     margin-right: auto;
     max-height: 50px;
     text-align: center;
+    width:auto;
 }
 .productos ul{
+    max-height: auto;
     display: flex;
     margin-right: auto;
     margin-left: auto;
     font-size: 20px;
+    text-align: center;
 }
-
+.productos li{
+    max-height: 50px;
+    width: 250px;
+}
 .productos img{
     margin-right: 15px;
     margin-left: 15px;
+    box-shadow: 7px 13px 20px #000;
 }
 .productos button{
     max-height: 50px;
     margin-right: 15px;
     margin-left: 15px;
     border-radius: 3px;
-    border-color: rgb(241, 226, 155);
+    border-color:#25394e;
+    box-shadow: 7px 13px 30px #000;
+    border:none;
 
 }
 .productos a{
